@@ -23,7 +23,6 @@ sudo apt-get install -y \
     libltdl-dev \
     libjpeg-dev \
     libpng-dev \
-    libpspell-dev \
     libreadline-dev
 
 sudo mkdir /usr/local/php7
@@ -55,7 +54,6 @@ CONFIGURE_STRING="--prefix=/usr/local/php7 \
                   --with-pdo-mysql=mysqlnd \
                   --with-openssl \
                   --enable-pcntl \
-                  --with-pspell \
                   --enable-shmop \
                   --enable-soap \
                   --enable-sockets \
